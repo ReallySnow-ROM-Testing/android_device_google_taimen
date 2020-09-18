@@ -17,6 +17,10 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_taimen.mk \
     $(LOCAL_DIR)/aosp_taimen_hwasan.mk \
+    $(LOCAL_DIR)/kscope_taimen.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_taimen-userdebug
+    aosp_taimen-userdebug \
+    kscope_taimen-eng \
+    kscope_taimen-user \
+    kscope_taimen-userdebug
