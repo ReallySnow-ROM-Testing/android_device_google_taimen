@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "android_device_google_wahoo",
+    "target_path": "device/google/wahoo"
+  },
+  {
+    "repository": "android_kernel_google_wahoo",
+    "target_path": "kernel/google/wahoo"
+  },
+  {
+    "repository": "android_vendor_google_wahoo",
+    "target_path": "vendor/google"
+  }
+]
