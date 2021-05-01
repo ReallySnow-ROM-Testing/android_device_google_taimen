@@ -10,5 +10,9 @@
   {
     "repository": "android_vendor_google_wahoo",
     "target_path": "vendor/google"
+    },
+  {
+    "repository": "android_packages_apps_GCamGOPrebuilt",
+    "target_path": "packages/apps/GCamGOPrebuilt"
   }
 ]
