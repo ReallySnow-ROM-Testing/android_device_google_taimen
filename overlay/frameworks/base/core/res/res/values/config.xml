@@ -113,8 +113,8 @@
     <!-- Screen brightness when dozing. -->
     <integer name="config_screenBrightnessDoze">13</integer>
 
-    <!-- Whether the display blanks itself when transition from a doze to a non-doze state -->
-    <bool name="config_displayBlanksAfterDoze">true</bool>
+    <!-- Whether the always on display mode is available. -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
     <!-- Default screen brightness for VR setting. Default value: 0x8c => 140. -->
     <integer name="config_screenBrightnessForVrSettingDefault">140</integer>
