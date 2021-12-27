@@ -29,7 +29,9 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 2 XL
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+# ArrowOS additions
 DEVICE_MAINTAINER := ReallySnow
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="taimen" \
