@@ -185,7 +185,6 @@ product/lib64/libaptX_encoder.so
 -product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
 -product/priv-app/ConnMO/ConnMO.apk
 -product/priv-app/DCMO/DCMO.apk
--product/priv-app/DevicePersonalizationPrebuiltPixel2/DevicePersonalizationPrebuiltPixel2.apk;PRESIGNED
 -product/priv-app/DMService/DMService.apk
 -product/priv-app/DiagMon/DiagMon.apk
 -product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
@@ -209,3 +208,7 @@ system_ext/etc/permissions/privapp-permissions-google-se.xml:system_ext/etc/perm
 -system_ext/framework/RadioConfigLib.jar
 -system_ext/framework/com.android.hotwordenrollment.common.util.jar
 -system_ext/priv-app/CarrierSetup/CarrierSetup.apk
+
+# AiAi - from crosshatch
+-product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED|1093d303d858f45d89edbda10b767eddfaeba6d2
+-product/priv-app/DevicePersonalizationPrebuiltPixel3/DevicePersonalizationPrebuiltPixel3.apk;PRESIGNED|992d61469358a62461f0af0dd8db88b36183cdaa
